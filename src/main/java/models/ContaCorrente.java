@@ -24,5 +24,4 @@ public class ContaCorrente extends ContaBancaria {
                 "\n Titular: " + getTitular();
     }
 
-
 }

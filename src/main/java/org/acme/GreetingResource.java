@@ -90,4 +90,11 @@ public class GreetingResource {
             return "Ocorreu algum erro inesperado na transação.";
         }
     }
+
+    @GET
+    @Path("/listaContas")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String listarContas() {
+        return listaContas.toString();
+    }
 }
