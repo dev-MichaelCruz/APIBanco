@@ -44,4 +44,9 @@ Realiza a transferência de valores entre duas contas válidas, desde que a cont
 
 >valorTransferencia;
 
+### `GET` `/contacorrente/listacontas`
+Apresenta todas as contas e seus respectivos saldos
+
+
+### Testes das rotas
 Para executar os testes, utilizei o Insomnia, mas você pode utilizar qualquer plataforma de consumo de API que lhe for mais conveniente.
